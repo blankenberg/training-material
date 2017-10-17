@@ -15,10 +15,10 @@ Identifying the proteins contained in a sample is an important step in any prote
 4. Protein inference
 
 A plethora of different software solutions exists for each step. In this tutorial, we will use ***msconvert*** {% icon tool %}  for raw data conversion and tools from the [OpenMS software suite](https://openms.de) for all other steps. We will use one peptide search engine at first and later on show how to expand the workflow for using multiple search engines. Protein inference will be performed with the Fido algorithm ([Serang et al, JPR, (2010)](https://www.ncbi.nlm.nih.gov/pubmed/20712337)).
-This tutorial covers peptide and protein **identification** only, but you may use the output of this tutorial for the [tutorial on protein quantitation]({{site.url}}/topics/proteomics/tutorials/protein-quant-sil/tutorial.html).
+This tutorial covers peptide and protein **identification** only, but you may use the output of this tutorial for the [tutorial on protein quantitation]({{site.baseurl}}/topics/proteomics/tutorials/protein-quant-sil/tutorial.html).
 
 It is generally recommended to use more than one peptide search engine and use the combined results for the final peptide inference ([Shteynberg et al., 2013, Mol. Cell. Proteomics](https://www.ncbi.nlm.nih.gov/pubmed/23720762)).
-For an alternative ID pipeline using the [Compomics](https://compomics.com/) tools [SearchGUI](https://compomics.github.io/projects/searchgui.html) and [PeptideShaker](https://compomics.github.io/projects/peptide-shaker.html), please consult [this tutorial]({{site.url}}/topics/proteomics/tutorials/protein-id-sg-ps/tutorial.html). However, the latter tutorial does not allow to continue with the tutorial on protein quantitation.
+For an alternative ID pipeline using the [Compomics](https://compomics.com/) tools [SearchGUI](https://compomics.github.io/projects/searchgui.html) and [PeptideShaker](https://compomics.github.io/projects/peptide-shaker.html), please consult [this tutorial]({{site.baseurl}}/topics/proteomics/tutorials/protein-id-sg-ps/tutorial.html). However, the latter tutorial does not allow to continue with the tutorial on protein quantitation.
 
 # Input data
 {:.no_toc}
@@ -27,7 +27,7 @@ As an example dataset, we will use an LC-MS/MS analysis of HeLa cell lysate publ
 in [Vaudel et al., 2014, Proteomics](https://www.ncbi.nlm.nih.gov/pubmed/24678044). Detailed information
 about the dataset can be found on [PRIDE](https://www.ebi.ac.uk/pride/archive/projects/PXD000674).
 For step 2 we will use a validated human Uniprot FASTA database with appended decoys.
-If you already completed the tutorial on [Database Handling]({{site.url}}/topics/proteomics/tutorials/database-handling/tutorial.html)
+If you already completed the tutorial on [Database Handling]({{site.baseurl}}/topics/proteomics/tutorials/database-handling/tutorial.html)
 you can use the constructed database including decoys. You can find a prepared database, as well as the input proteomics data in different file formats on [Zenodo](https://zenodo.org/record/796184).
 
 > ### Agenda
