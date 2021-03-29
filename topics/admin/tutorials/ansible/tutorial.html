@@ -6,16 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Ansible</title>
         
-            <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '' , 'auto');
-    ga('send', 'pageview');
-</script>
+            <script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
 
-<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
         
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap.min.css?v=3">
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap-toc.min.css">
@@ -78,55 +70,87 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Language Selector">
-                            <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Language
-                        </a>
-                        <div class="dropdown-menu">
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fansible%2Ftutorial.html&edit-text=&act=url" title="">
-                                Français
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fansible%2Ftutorial.html&edit-text=&act=url" title="">
-                                日本語
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fansible%2Ftutorial.html&edit-text=&act=url" title="">
-                                Español
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fansible%2Ftutorial.html&edit-text=&act=url" title="">
-                                Português
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fansible%2Ftutorial.html&edit-text=&act=url" title="">
-                                العربية
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fansible%2Ftutorial.html&edit-text=&act=url" title="">
-                                And more!
-                            </a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
     </a>
     <div class="dropdown-menu dropdown-menu-right">
+        <!-- disable Tess for now
         <form method="get" action="https://tess.elixir-europe.org/materials">
             <input type="text" id="search" name="q" value="" style="margin-left: 0.5em;/*! border-radius: 0px; */">
             <input type="hidden" value="Galaxy Training" name="content_provider">
             <input type="submit" value="Search on TeSS" style="width: 92%;border-radius: 0px;margin: 0.5em;background: #f47d20;border: 0px;padding: 0.25em;" class="">
         </form>
+        -->
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQ">
-            FAQ
+        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQs">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
+        
+        <a class="dropdown-item" href="/training-material/topics/admin/faqs/" title="Check our FAQs for the Galaxy Server administration topic">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Topic FAQs
+        </a>
+        
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
-            Discuss on Galaxy Help
+            <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
         </a>
+        <a class="dropdown-item" href="https://gitter.im/Galaxy-Training-Network/Lobby" title="Discuss on gitter">
+           <i class="fab fa-gitter" aria-hidden="true"></i><span class="visually-hidden">gitter</span> Discuss on Gitter
+        </a>
+    </div>
+</li>
+
+
+                    <li class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Extras">
+        <i class="far fa-star" aria-hidden="true"></i><span class="visually-hidden">galaxy-star</span> Extras
+    </a>
+    <div class="dropdown-menu dropdown-menu-right">
+
+        
+        <a class="dropdown-item" href="https://github.com/galaxyproject/training-material/edit/main/topics/admin/tutorials/ansible/tutorial.md" title="Edit on GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit on GitHub
+        </a>
+
+        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this rrepository">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN statistics
+        </a>
+
+        <a class="dropdown-item" href="https://plausible.galaxyproject.eu/training.galaxyproject.org?period=12mo&page=/training-material/topics/admin/tutorials/ansible/tutorial.html" title="Show view statistics of this page">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Page Metrics
+        </a>
+
+        <div class="dropdown-item">
+            <div>
+                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
+            </div>
+
+            <div id="lang-selector">
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/ansible/tutorial.html&edit-text=&act=url">
+                Français
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/ansible/tutorial.html&edit-text=&act=url">
+                日本語
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/ansible/tutorial.html&edit-text=&act=url">
+                Español
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/ansible/tutorial.html&edit-text=&act=url">
+                Português
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/admin/tutorials/ansible/tutorial.html&edit-text=&act=url">
+                العربية
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fadmin%2Ftutorials%2Fansible%2Ftutorial.html&edit-text=&act=url" title="">
+                And more!
+                </a>
+            </div>
+        </div>
 
         <div class="dropdown-item">
             <div>
@@ -149,18 +173,36 @@
                 <label data-value="halloween" class="btn btn-secondary">
                     <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
                 </label>
+                <label data-value="straya" class="btn btn-secondary">
+                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
+                </label>
             </div>
 
         </div>
     </div>
 </li>
 
-
+                    <!--
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/galaxyproject/training-material/edit/master/topics/admin/tutorials/ansible/tutorial.md">
+                        <a class="nav-link" href="https://github.com/galaxyproject/training-material/edit/main/topics/admin/tutorials/ansible/tutorial.md">
                             <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit
                         </a>
                     </li>
+                    -->
+
+                     <!-- Search bar-->
+                    <li class="nav-item">
+                      <div id="navbarSupportedContent">
+                        <!-- Search form -->
+                        <form class="form-inline mr-auto" method="GET" action="/training-material/search">
+                          <i class="fas fa-search nav-link" aria-hidden="true"></i>
+                          <div class="md-form mb-2">
+                            <input name="query" class="form-control nicer" type="text" placeholder="Search Tutorials" aria-label="Search">
+                          </div>
+                        </form>
+                      </div>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -216,7 +258,7 @@
   },
   "interactivityType": "mixed",
   "isAccessibleForFree": true,
-  "license": "https://github.com/galaxyproject/training-material/blob/master/LICENSE.md",
+  "license": "https://github.com/galaxyproject/training-material/blob/main/LICENSE.md",
   "producer": {
     "@type": "Organization",
     "email": "galaxytrainingnetwork@gmail.com",
@@ -287,7 +329,7 @@
 
         <div class="contributors-line">By: 
 
-<a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a>, <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/shiltemann" alt="Saskia Hiltemann">Saskia Hiltemann</a>
+ <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a> <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/shiltemann" alt="Saskia Hiltemann">Saskia Hiltemann</a>
 
 </div>
 
@@ -352,11 +394,15 @@
                 
 
                 
+                
+                
+
+                
                 </div>
             </ul>
             
 
-            <p><strong> <i class="far fa-calendar" aria-hidden="true"></i><span class="visually-hidden">last_modification</span> Last modification:</strong> Dec 11, 2020 </p>
+            <p><strong> <i class="far fa-calendar" aria-hidden="true"></i><span class="visually-hidden">last_modification</span> Last modification:</strong> Mar 11, 2021 </p>
         </blockquote>
 
         <div class="container">
@@ -406,16 +452,8 @@
 
 </blockquote>
 
-<blockquote class="tip">
-  <h3 id="tip-operating-system-compatibility"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Operating System Compatibility</h3>
-
-  <p>These Ansible roles and training materials were last tested on Centos 7 and Ubuntu 18.04, but will probably work on other RHEL and Debian variants.</p>
-
-  <p>The roles that are used in these training are currently used by <code class="language-plaintext highlighter-rouge">use<span class="notranslate">galaxy</span>.*</code>, and other, servers in maintaining their infrastructure. (<a href="https://github.com/galaxyproject/infrastructure-playbook/">US</a>, <a href="https://github.com/usegalaxy-eu/infrastructure-playbook">EU</a>, both are running CentOS 7)</p>
-
-  <p>If you have an issue running these trainings on your OS flavour, please report <a href="https://github.com/galaxyproject/training-material/issues/new">the issue</a> in the training material and we can see if it is possible to solve.</p>
-
-</blockquote>
+<!--SNIPPET-->
+<blockquote class="tip">  <h3 data-toc-skip="" id="-tip-operating-system-compatibility"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Operating system compatibility</h3>  <p>These Ansible roles and training materials were last tested on Centos 7 and Ubuntu 18.04, but will probably work on other RHEL and Debian variants.The roles that are used in these training are currently used by <code class="language-plaintext highlighter-rouge">use<span class="notranslate">galaxy</span>.*</code>, and other, servers in maintaining their infrastructure. (<a href="https://github.com/galaxyproject/infrastructure-playbook/">US</a>, <a href="https://github.com/usegalaxy-eu/infrastructure-playbook">EU</a>, both are running CentOS 7)If you have an issue running these trainings on your OS flavour, please report <a href="https://github.com/galaxyproject/training-material/issues/new">the issue</a> in the training material and we can see if it is possible to solve.</p></blockquote>
 
 <h1 id="what-is-ansible">What is Ansible?</h1>
 
@@ -696,14 +734,14 @@ Ansible provides some flags which can help you identify changes before they’re
           <p>We will call our group <code class="language-plaintext highlighter-rouge">my_hosts</code></p>
         </li>
         <li>
-          <p>Create <a href="https://docs.ansible.com/ansible/2.9/user_guide/intro_inventory.html">an inventory file</a> with the group <code class="language-plaintext highlighter-rouge">my_hosts</code> and <code class="language-plaintext highlighter-rouge">localhost ansible_connection=local</code>, which tells ansible to not use SSH, and just use the local connection.</p>
+          <p>Create <a href="https://docs.ansible.com/ansible/2.9/user_guide/intro_inventory.html">an inventory file</a> with the group <code class="language-plaintext highlighter-rouge">my_hosts</code> and <code class="language-plaintext highlighter-rouge">localhost ansible_connection=local</code>, which tells Ansible to not use SSH, and just use the local connection. Additionally, you should explicitly set the <code class="language-plaintext highlighter-rouge">ansible_user</code> variable to the use<span class="notranslate">rna</span>me to use when connecting to the server. Ansible has changed its behaviour over time regarding whether or not <code class="language-plaintext highlighter-rouge">ansible_user</code> is defined, and it is most effective to define it explicitly even when it can sometimes be inferred.</p>
 
           <blockquote class="solution">
             <h3 id="solution-solution"><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden">solution</span> Solution</h3>
             <p>The file should look like:</p>
 
             <div class="language-ini highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">[my_hosts]</span>
-<span class="err">localhost</span> <span class="py">ansible_connection</span><span class="p">=</span><span class="s">local</span>
+<span class="err">localhost</span> <span class="py">ansible_connection</span><span class="p">=</span><span class="s">local ansible_user=ubuntu</span>
 </code></pre></div>            </div>
           </blockquote>
         </li>
@@ -740,7 +778,7 @@ Ansible provides some flags which can help you identify changes before they’re
       <p>This is a complete role by itself and will copy the file <code class="language-plaintext highlighter-rouge">test.txt</code> from the <code class="language-plaintext highlighter-rouge">roles/my-role/files/</code> folder over to the target host and place it in <code class="language-plaintext highlighter-rouge">/tmp</code>.</p>
     </li>
     <li>
-      <p>Open <code class="language-plaintext highlighter-rouge">playbook.yml</code> for editing in the root folder. Place the following content in there:</p>
+      <p>Create and open <code class="language-plaintext highlighter-rouge">playbook.yml</code> file for editing in the <code class="language-plaintext highlighter-rouge">intro</code> directory you created. Place the following content in there:</p>
 
       <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
 <span class="pi">-</span> <span class="na">hosts</span><span class="pi">:</span> <span class="s">my_hosts</span>
@@ -1345,6 +1383,11 @@ Note that for this task one would normally list multiple packages in the <code c
                     </blockquote>
                     
 
+                    <h1>Frequently Asked Questions</h1>
+                    Have questions about this tutorial? Check out the  <a href="/training-material/topics/admin/faqs/">FAQ page for the Galaxy Server administration topic</a> to see if your question is listed there.
+                    If not, please ask your question on the <a href="https://gitter.im/Galaxy-Training-Network/Lobby">GTN Gitter Channel</a> or the
+                    <a href="https://help.galaxyproject.org">Galaxy Help Forum</a>
+
                     
 
                     
@@ -1385,7 +1428,7 @@ Note that for this task one would normally list multiple packages in the <code c
                     <h1>Citing this Tutorial</h1>
                     <p>
                         <ol>
-                            <li id="citation-text">Helena Rasche, Saskia Hiltemann, 2020 <b>Ansible (Galaxy Training Materials)</b>. <a href="/training-material/topics/admin/tutorials/ansible/tutorial.html">/training-material/topics/admin/tutorials/ansible/tutorial.html</a> Online; accessed TODAY
+                            <li id="citation-text">Helena Rasche, Saskia Hiltemann, 2021 <b>Ansible (Galaxy Training Materials)</b>. <a href="/training-material/topics/admin/tutorials/ansible/tutorial.html">/training-material/topics/admin/tutorials/ansible/tutorial.html</a> Online; accessed TODAY
                             </li>
                             <li>
                             Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -1402,8 +1445,8 @@ Note that for this task one would normally list multiple packages in the <code c
 <code id="citation-code">@misc{admin-ansible,
     author = "Helena Rasche and Saskia Hiltemann",
     title = "Ansible (Galaxy Training Materials)",
-    year = "2020",
-    month = "12",
+    year = "2021",
+    month = "03",
     day = "11"
     url = "\url{/training-material/topics/admin/tutorials/ansible/tutorial.html}",
     note = "[Online; accessed TODAY]"
@@ -1455,7 +1498,7 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
         </p>
         <p>
             Found a typo? Something is wrong in this tutorial? Edit it on
-            <a href="https://github.com/galaxyproject/training-material/tree/master/topics/admin/tutorials/ansible/tutorial.md">GitHub</a>.
+            <a href="https://github.com/galaxyproject/training-material/tree/main/topics/admin/tutorials/ansible/tutorial.md">GitHub</a>.
         </p>
         <p>
     The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.

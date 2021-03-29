@@ -6,16 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Galaxy Training!</title>
         
-            <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '' , 'auto');
-    ga('send', 'pageview');
-</script>
+            <script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
 
-<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
         
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap.min.css?v=3">
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap-toc.min.css">
@@ -54,29 +46,89 @@
                             <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/galaxyproject/training-material" title="View on GitHub">
-                            <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> View on GitHub
-                        </a>
-                    </li>
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
     </a>
     <div class="dropdown-menu dropdown-menu-right">
+        <!-- disable Tess for now
         <form method="get" action="https://tess.elixir-europe.org/materials">
             <input type="text" id="search" name="q" value="" style="margin-left: 0.5em;/*! border-radius: 0px; */">
             <input type="hidden" value="Galaxy Training" name="content_provider">
             <input type="submit" value="Search on TeSS" style="width: 92%;border-radius: 0px;margin: 0.5em;background: #f47d20;border: 0px;padding: 0.25em;" class="">
         </form>
+        -->
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQ">
-            FAQ
+        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQs">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
+        
+        <a class="dropdown-item" href="/training-material/topics/variant-analysis/faqs/" title="Check our FAQs for the  topic">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Topic FAQs
+        </a>
+
+        
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
-            Discuss on Galaxy Help
+            <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
         </a>
+        <a class="dropdown-item" href="https://gitter.im/Galaxy-Training-Network/Lobby" title="Discuss on gitter">
+           <i class="fab fa-gitter" aria-hidden="true"></i><span class="visually-hidden">gitter</span> Discuss on Gitter
+        </a>
+    </div>
+</li>
+
+
+                    <li class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Extras">
+        <i class="far fa-star" aria-hidden="true"></i><span class="visually-hidden">galaxy-star</span> Extras
+    </a>
+    <div class="dropdown-menu dropdown-menu-right">
+
+        
+        <a class="dropdown-item" href="https://github.com/galaxyproject/training-material/edit/main/topics/variant-analysis/" title="Edit on GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit on GitHub
+        </a>
+
+        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this rrepository">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN statistics
+        </a>
+
+        <a class="dropdown-item" href="https://plausible.galaxyproject.eu/training.galaxyproject.org?period=12mo&page=/training-material/topics/variant-analysis/" title="Show view statistics of this page">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Page Metrics
+        </a>
+
+        <div class="dropdown-item">
+            <div>
+                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
+            </div>
+
+            <div id="lang-selector">
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/variant-analysis/&edit-text=&act=url">
+                Français
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/variant-analysis/&edit-text=&act=url">
+                日本語
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/variant-analysis/&edit-text=&act=url">
+                Español
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/variant-analysis/&edit-text=&act=url">
+                Português
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/variant-analysis/&edit-text=&act=url">
+                العربية
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2F%2Ftutorials%2F%2Ftutorial.html&edit-text=&act=url" title="">
+                And more!
+                </a>
+            </div>
+        </div>
 
         <div class="dropdown-item">
             <div>
@@ -98,6 +150,9 @@
                 </label>
                 <label data-value="halloween" class="btn btn-secondary">
                     <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
+                </label>
+                <label data-value="straya" class="btn btn-secondary">
+                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
                 </label>
             </div>
 
@@ -262,6 +317,7 @@ genotypes.
   <tbody class="list">
 
   
+  
     
 
     
@@ -310,6 +366,7 @@ genotypes.
                       And more!
                   </a>
                 </ul>
+                
               </span>
             
             </td>
@@ -341,6 +398,8 @@ genotypes.
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -394,7 +453,7 @@ genotypes.
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/master/topics/variant-analysis/tutorials/dip/tours/">
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/variant-analysis/tutorials/dip/tours/">
     <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
 </a>
 
@@ -408,6 +467,12 @@ genotypes.
     </a>
     <ul class="dropdown-menu">
     
+    
+        
+    
+        
+    
+        
     
         
     
@@ -464,8 +529,6 @@ genotypes.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
@@ -515,6 +578,22 @@ genotypes.
     
         
     
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
         
     
         
@@ -582,6 +661,8 @@ genotypes.
           
             <td> 
 
+    </span>
+
  </td>
             <td> 
     <span class="btn-group">
@@ -634,7 +715,7 @@ genotypes.
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/master/topics/variant-analysis/tutorials/non-dip/tours/">
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/variant-analysis/tutorials/non-dip/tours/">
     <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
 </a>
 
@@ -648,6 +729,12 @@ genotypes.
     </a>
     <ul class="dropdown-menu">
     
+    
+        
+    
+        
+    
+        
     
         
     
@@ -704,8 +791,6 @@ genotypes.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
@@ -755,6 +840,22 @@ genotypes.
     
         
     
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
         
     
         
@@ -823,6 +924,8 @@ genotypes.
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -926,6 +1029,12 @@ genotypes.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
@@ -937,8 +1046,6 @@ genotypes.
         <a class="dropdown-item" href="https://test.galaxyproject.org/" title="Galaxy Test">
             Galaxy Test
         </a>
-        
-    
         
     
         
@@ -993,6 +1100,22 @@ genotypes.
     
         
     
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
         
     
         
@@ -1059,6 +1182,8 @@ genotypes.
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -1162,11 +1287,15 @@ genotypes.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
-        
-    
         
     
         
@@ -1232,6 +1361,26 @@ genotypes.
         
     
         
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
+        
+    
+        
         <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
             UseGalaxy.eu
         </a>
@@ -1285,6 +1434,8 @@ genotypes.
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -1388,11 +1539,15 @@ genotypes.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
-        
-    
         
     
         
@@ -1458,6 +1613,26 @@ genotypes.
         
     
         
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
+        
+    
+        
         <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
             UseGalaxy.eu
         </a>
@@ -1516,6 +1691,8 @@ genotypes.
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -1619,11 +1796,15 @@ genotypes.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
-        
-    
         
     
         
@@ -1682,6 +1863,22 @@ genotypes.
     
         
     
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
         
     
         
@@ -1747,6 +1944,8 @@ genotypes.
           
             <td> 
 
+    </span>
+
  </td>
             <td> 
     <span class="btn-group">
@@ -1799,7 +1998,7 @@ genotypes.
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/master/topics/variant-analysis/tutorials/mapping-by-sequencing/tours/">
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/variant-analysis/tutorials/mapping-by-sequencing/tours/">
     <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
 </a>
 
@@ -1853,6 +2052,12 @@ genotypes.
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
@@ -1864,8 +2069,6 @@ genotypes.
         <a class="dropdown-item" href="https://test.galaxyproject.org/" title="Galaxy Test">
             Galaxy Test
         </a>
-        
-    
         
     
         
@@ -1924,6 +2127,26 @@ genotypes.
     
         
     
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
         
     
         
@@ -1987,6 +2210,8 @@ genotypes.
           
             <td> 
 
+    </span>
+
  </td>
             <td> 
     <span class="btn-group">
@@ -2039,7 +2264,7 @@ genotypes.
 
  </td>
               <td> 
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/master/topics/variant-analysis/tutorials/microbial-variants/tours/">
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/variant-analysis/tutorials/microbial-variants/tours/">
     <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span>
 </a>
 
@@ -2053,6 +2278,12 @@ genotypes.
     </a>
     <ul class="dropdown-menu">
     
+    
+        
+    
+        
+    
+        
     
         
     
@@ -2109,8 +2340,6 @@ genotypes.
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
@@ -2121,49 +2350,61 @@ genotypes.
         
     
         
-        <a class="dropdown-item" href="https://www.galaxytrakr.org/" title="GalaxyTrakr">
-            GalaxyTrakr
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
         </a>
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
         
     
         
@@ -2233,12 +2474,15 @@ genotypes.
             
         
 
+        <h2 id="topic-faq">Frequently Asked Questions</h2>
+        Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
+
         <h2 id="maintainers">Maintainers</h2>
         <p>This material is maintained by:</p>
         
         
 
-<a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a>, <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Wolfgang Maier">Wolfgang Maier</a>, <a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bgruening" alt="Björn Grüning">Björn Grüning</a>, <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a>
+ <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a> <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Wolfgang Maier">Wolfgang Maier</a> <a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bgruening" alt="Björn Grüning">Björn Grüning</a> <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a>
 
 
 
@@ -2253,7 +2497,7 @@ genotypes.
         
         
 
-<a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a>, <a href="/training-material/hall-of-fame/yvanlebras/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/yvanlebras" alt="Yvan Le Bras">Yvan Le Bras</a>, <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a>, <a href="/training-material/hall-of-fame/nsoranzo/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nsoranzo" alt="Nicola Soranzo">Nicola Soranzo</a>, <a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/astrovsky01" alt="Alex Ostrovsky">Alex Ostrovsky</a>, <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Wolfgang Maier">Wolfgang Maier</a>, <a href="/training-material/hall-of-fame/torhou/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/torhou" alt="Torsten Houwaart">Torsten Houwaart</a>, <a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/erxleben" alt="Anika Erxleben">Anika Erxleben</a>, <a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bgruening" alt="Björn Grüning">Björn Grüning</a>, <a href="/training-material/hall-of-fame/mvdbeek/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mvdbeek" alt="Marius van den Beek">Marius van den Beek</a>, <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Dave Clements">Dave Clements</a>, <a href="/training-material/hall-of-fame/blankenberg/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankenberg" alt="Daniel Blankenberg">Daniel Blankenberg</a>, <a href="/training-material/hall-of-fame/pvanheus/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pvanheus" alt="Peter van Heusden">Peter van Heusden</a>, <a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/slugger70" alt="Simon Gladman">Simon Gladman</a>, <a href="/training-material/hall-of-fame/thobalose/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/thobalose" alt="Thoba Lose">Thoba Lose</a>, <a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annasyme" alt="Anna Syme">Anna Syme</a>, <a href="/training-material/hall-of-fame/tseemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tseemann" alt="Torsten Seemann">Torsten Seemann</a>
+ <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a> <a href="/training-material/hall-of-fame/yvanlebras/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/yvanlebras" alt="Yvan Le Bras">Yvan Le Bras</a> <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a> <a href="/training-material/hall-of-fame/nsoranzo/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nsoranzo" alt="Nicola Soranzo">Nicola Soranzo</a> <a href="/training-material/hall-of-fame/astrovsky01/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/astrovsky01" alt="Alex Ostrovsky">Alex Ostrovsky</a> <a href="/training-material/hall-of-fame/wm75/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/wm75" alt="Wolfgang Maier">Wolfgang Maier</a> <a href="/training-material/hall-of-fame/torhou/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/torhou" alt="Torsten Houwaart">Torsten Houwaart</a> <a href="/training-material/hall-of-fame/erxleben/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/erxleben" alt="Anika Erxleben">Anika Erxleben</a> <a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bgruening" alt="Björn Grüning">Björn Grüning</a> <a href="/training-material/hall-of-fame/mvdbeek/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mvdbeek" alt="Marius van den Beek">Marius van den Beek</a> <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Dave Clements">Dave Clements</a> <a href="/training-material/hall-of-fame/blankenberg/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankenberg" alt="Daniel Blankenberg">Daniel Blankenberg</a> <a href="/training-material/hall-of-fame/pvanheus/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pvanheus" alt="Peter van Heusden">Peter van Heusden</a> <a href="/training-material/hall-of-fame/slugger70/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/slugger70" alt="Simon Gladman">Simon Gladman</a> <a href="/training-material/hall-of-fame/thobalose/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/thobalose" alt="Thoba Lose">Thoba Lose</a> <a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annasyme" alt="Anna Syme">Anna Syme</a> <a href="/training-material/hall-of-fame/tseemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tseemann" alt="Torsten Seemann">Torsten Seemann</a>
 
 
 
@@ -2317,6 +2561,7 @@ genotypes.
 
 <footer>
     <div class="container">
+        <br><br>
         <p>
             The <a href="https://galaxyproject.org/teach/gtn/">Galaxy Training Network</a>
             provides researchers with online training materials, connects them with local trainers, and helps promoting open data analysis practices worldwide.
@@ -2324,7 +2569,7 @@ genotypes.
         <p>
     The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/c0fb78a0b299329cd9bc9a6ed844d05e99ee7491">c0fb78a0b299329cd9bc9a6ed844d05e99ee7491</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/44a14fe58e8630e5f770403d0cbab58b0633c306">44a14fe58e8630e5f770403d0cbab58b0633c306</a></p>
     </div>
 </footer>
 

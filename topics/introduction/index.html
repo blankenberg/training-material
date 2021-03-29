@@ -6,16 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Galaxy Training!</title>
         
-            <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '' , 'auto');
-    ga('send', 'pageview');
-</script>
+            <script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
 
-<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
         
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap.min.css?v=3">
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap-toc.min.css">
@@ -54,29 +46,89 @@
                             <i class="fas fa-users" aria-hidden="true"></i><span class="visually-hidden">hall-of-fame</span> Contributors
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/galaxyproject/training-material" title="View on GitHub">
-                            <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> View on GitHub
-                        </a>
-                    </li>
                     <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
     </a>
     <div class="dropdown-menu dropdown-menu-right">
+        <!-- disable Tess for now
         <form method="get" action="https://tess.elixir-europe.org/materials">
             <input type="text" id="search" name="q" value="" style="margin-left: 0.5em;/*! border-radius: 0px; */">
             <input type="hidden" value="Galaxy Training" name="content_provider">
             <input type="submit" value="Search on TeSS" style="width: 92%;border-radius: 0px;margin: 0.5em;background: #f47d20;border: 0px;padding: 0.25em;" class="">
         </form>
+        -->
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQ">
-            FAQ
+        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQs">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
+        
+        <a class="dropdown-item" href="/training-material/topics/introduction/faqs/" title="Check our FAQs for the  topic">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Topic FAQs
+        </a>
+
+        
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
-            Discuss on Galaxy Help
+            <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
         </a>
+        <a class="dropdown-item" href="https://gitter.im/Galaxy-Training-Network/Lobby" title="Discuss on gitter">
+           <i class="fab fa-gitter" aria-hidden="true"></i><span class="visually-hidden">gitter</span> Discuss on Gitter
+        </a>
+    </div>
+</li>
+
+
+                    <li class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Extras">
+        <i class="far fa-star" aria-hidden="true"></i><span class="visually-hidden">galaxy-star</span> Extras
+    </a>
+    <div class="dropdown-menu dropdown-menu-right">
+
+        
+        <a class="dropdown-item" href="https://github.com/galaxyproject/training-material/edit/main/topics/introduction/" title="Edit on GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit on GitHub
+        </a>
+
+        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this rrepository">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN statistics
+        </a>
+
+        <a class="dropdown-item" href="https://plausible.galaxyproject.eu/training.galaxyproject.org?period=12mo&page=/training-material/topics/introduction/" title="Show view statistics of this page">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Page Metrics
+        </a>
+
+        <div class="dropdown-item">
+            <div>
+                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
+            </div>
+
+            <div id="lang-selector">
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/introduction/&edit-text=&act=url">
+                Français
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/introduction/&edit-text=&act=url">
+                日本語
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/introduction/&edit-text=&act=url">
+                Español
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/introduction/&edit-text=&act=url">
+                Português
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/introduction/&edit-text=&act=url">
+                العربية
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2F%2Ftutorials%2F%2Ftutorial.html&edit-text=&act=url" title="">
+                And more!
+                </a>
+            </div>
+        </div>
 
         <div class="dropdown-item">
             <div>
@@ -98,6 +150,9 @@
                 </label>
                 <label data-value="halloween" class="btn btn-secondary">
                     <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
+                </label>
+                <label data-value="straya" class="btn btn-secondary">
+                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
                 </label>
             </div>
 
@@ -177,6 +232,7 @@
   <tbody class="list">
 
   
+  
     
 
     
@@ -225,6 +281,7 @@
                       And more!
                   </a>
                 </ul>
+                
               </span>
             
             </td>
@@ -296,13 +353,14 @@
             And more!
         </a>
     </ul>
-    </span>
-
+    
 
 /
-<a class="topic-icon" href="/training-material/videos/#video-introduction-galaxy-intro-short">
+<a class="topic-icon" href="/training-material/topics/introduction/videos/#video-introduction-galaxy-intro-short">
     <i class="fas fa-video" aria-hidden="true"></i><span class="visually-hidden">video</span>
 </a>
+
+    </span>
 
  </td>
             <td> 
@@ -382,6 +440,8 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="http://143.169.238.104/galaxy/" title="Biomina">
             Biomina
         </a>
@@ -395,6 +455,10 @@
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
+        
+    
+        
+    
         
     
         
@@ -434,13 +498,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -484,9 +544,27 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
+            Metagenomics
+        </a>
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="http://galaxy.migale.inra.fr/" title="Migale">
             Migale
         </a>
+        
+    
         
     
         
@@ -504,10 +582,14 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
             Single Cell Omics workbench
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
         </a>
         
     
@@ -550,10 +632,14 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="http://galaxy.bio.ku.dk/" title="Vinther Lab">
             Vinther Lab
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://virology.usegalaxy.eu/" title="Virology">
+            Virology
         </a>
         
     
@@ -592,6 +678,8 @@
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -677,6 +765,8 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
@@ -696,6 +786,10 @@
         <a class="dropdown-item" href="https://climate.usegalaxy.eu/" title="Climate Science Workbench">
             Climate Science Workbench
         </a>
+        
+    
+        
+    
         
     
         
@@ -727,13 +821,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -767,8 +857,30 @@
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://ml.usegalaxy.eu/" title="Machine Learning Workbench">
             Machine Learning Workbench
+        </a>
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://metabolomics.usegalaxy.eu/" title="Metabolomics">
+            Metabolomics
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
+            Metagenomics
         </a>
         
     
@@ -793,15 +905,23 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
             Single Cell Omics workbench
         </a>
         
     
         
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
     
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
         
     
         
@@ -829,9 +949,17 @@
         
     
         
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
+        
     
         
     
+        
+        <a class="dropdown-item" href="https://virology.usegalaxy.eu/" title="Virology">
+            Virology
+        </a>
         
     
     </ul>
@@ -865,6 +993,8 @@
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -950,9 +1080,15 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
+        
+    
+        
+    
         
     
         
@@ -988,13 +1124,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -1036,11 +1168,27 @@
         
     
         
-        <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
-            NanoGalaxy
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
+            Metagenomics
         </a>
         
     
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
+            NanoGalaxy
+        </a>
         
     
         
@@ -1058,7 +1206,17 @@
         
     
         
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
     
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
         
     
         
@@ -1094,6 +1252,10 @@
         
     
         
+        <a class="dropdown-item" href="https://virology.usegalaxy.eu/" title="Virology">
+            Virology
+        </a>
+        
     
     </ul>
 
@@ -1126,6 +1288,8 @@
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -1219,9 +1383,15 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://climate.usegalaxy.eu/" title="Climate Science Workbench">
             Climate Science Workbench
         </a>
+        
+    
+        
+    
         
     
         
@@ -1249,13 +1419,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -1295,9 +1461,27 @@
         
     
         
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
+            Metagenomics
+        </a>
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="http://galaxy.migale.inra.fr/" title="Migale">
             Migale
         </a>
+        
+    
         
     
         
@@ -1315,15 +1499,23 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
             Single Cell Omics workbench
         </a>
         
     
         
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
     
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
         
     
         
@@ -1332,6 +1524,10 @@
         </a>
         
     
+        
+        <a class="dropdown-item" href="https://usegalaxy.fr/" title="UseGalaxy.fr">
+            UseGalaxy.fr
+        </a>
         
     
         
@@ -1391,6 +1587,8 @@
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -1472,6 +1670,8 @@
         
     
         
+    
+        
         <a class="dropdown-item" href="https://clipseq.usegalaxy.eu/" title="CLIP-Explorer">
             CLIP-Explorer
         </a>
@@ -1491,6 +1691,10 @@
         <a class="dropdown-item" href="https://climate.usegalaxy.eu/" title="Climate Science Workbench">
             Climate Science Workbench
         </a>
+        
+    
+        
+    
         
     
         
@@ -1522,13 +1726,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -1562,8 +1762,30 @@
         
     
         
+    
+        
+    
+        
+    
+        
         <a class="dropdown-item" href="https://ml.usegalaxy.eu/" title="Machine Learning Workbench">
             Machine Learning Workbench
+        </a>
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://metabolomics.usegalaxy.eu/" title="Metabolomics">
+            Metabolomics
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
+            Metagenomics
         </a>
         
     
@@ -1588,15 +1810,23 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://singlecell.usegalaxy.eu/" title="Single Cell Omics workbench">
             Single Cell Omics workbench
         </a>
         
     
         
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
     
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
         
     
         
@@ -1624,9 +1854,17 @@
         
     
         
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
+        
     
         
     
+        
+        <a class="dropdown-item" href="https://virology.usegalaxy.eu/" title="Virology">
+            Virology
+        </a>
         
     
     </ul>
@@ -1653,6 +1891,8 @@
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -1696,12 +1936,186 @@
               <td> 
  </td>
               <td> 
+    <a class="topic-icon" href="/training-material/topics/introduction/tutorials/galaxy-intro-ngs-data-managment/workflows/" title="Workflows" alt="NGS data logistics workflows">
+        <i class="fas fa-share-alt" aria-hidden="true"></i><span class="visually-hidden">workflow</span>
+    </a>
+
  </td>
               <td> 
  </td>
             
             
               <td> 
+
+    <a href="#" class="btn btn-default dropdown-toggle topic-icon" data-toggle="dropdown" aria-expanded="false" title="Where to run the tutorial">
+        <i class="fas fa-globe" aria-hidden="true"></i><span class="visually-hidden">instances</span>
+    </a>
+    <ul class="dropdown-menu">
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
+            Galaxy Africa
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
+            Galaxy@GenOuest
+        </a>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.eu" title="UseGalaxy.eu">
+            UseGalaxy.eu
+        </a>
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.no/" title="UseGalaxy.no">
+            UseGalaxy.no
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org" title="UseGalaxy.org (Main)">
+            UseGalaxy.org (Main)
+        </a>
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.org.au" title="UseGalaxy.org.au">
+            UseGalaxy.org.au
+        </a>
+        
+    
+        
+    
+        
+    
+    </ul>
 
 
  </td>
@@ -1758,8 +2172,9 @@
             And more!
         </a>
     </ul>
-    </span>
+    
 
+    </span>
 
  </td>
             <td> 
@@ -1817,6 +2232,7 @@
   <tbody class="list">
 
   
+  
     
 
     
@@ -1846,6 +2262,8 @@
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -1954,6 +2372,8 @@
           
             <td> 
 
+    </span>
+
  </td>
             <td> 
     <span class="btn-group">
@@ -2046,6 +2466,7 @@
   <tbody class="list">
 
   
+  
     
 
     
@@ -2084,6 +2505,8 @@
           </td>
           
             <td> 
+
+    </span>
 
  </td>
             <td> 
@@ -2177,12 +2600,15 @@
             
         
 
+        <h2 id="topic-faq">Frequently Asked Questions</h2>
+        Common questions regarding this topic have been collected on a <a href="faqs/">dedicated FAQ page </a>. Common questions related to specific tutorials can be accessed from the tutorials themselves.
+
         <h2 id="maintainers">Maintainers</h2>
         <p>This material is maintained by:</p>
         
         
 
-<a href="/training-material/hall-of-fame/jennaj/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jennaj" alt="Jennifer Hillman-Jackson">Jennifer Hillman-Jackson</a>, <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Dave Clements">Dave Clements</a>
+ <a href="/training-material/hall-of-fame/jennaj/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/jennaj" alt="Jennifer Hillman-Jackson">Jennifer Hillman-Jackson</a> <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Dave Clements">Dave Clements</a>
 
 
 
@@ -2197,7 +2623,7 @@
         
         
 
-<a href="/training-material/hall-of-fame/bagnacan/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bagnacan" alt="Andrea Bagnacani">Andrea Bagnacani</a>, <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a>, <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/shiltemann" alt="Saskia Hiltemann">Saskia Hiltemann</a>, <a href="/training-material/hall-of-fame/pajanne/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pajanne" alt="Anne Pajon">Anne Pajon</a>, <a href="/training-material/hall-of-fame/nsoranzo/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nsoranzo" alt="Nicola Soranzo">Nicola Soranzo</a>, <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a>, <a href="/training-material/hall-of-fame/chrisbarnettster/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/chrisbarnettster" alt="Christopher Barnett">Christopher Barnett</a>, <a href="/training-material/hall-of-fame/michelemaroni89/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/michelemaroni89" alt="Michele Maroni">Michele Maroni</a>, <a href="/training-material/hall-of-fame/annefou/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annefou" alt="Anne Fouilloux">Anne Fouilloux</a>, <a href="/training-material/hall-of-fame/nagoue/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nagoue" alt="Nadia Goué">Nadia Goué</a>, <a href="/training-material/hall-of-fame/olanag1/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/olanag1" alt="Olha Nahorna">Olha Nahorna</a>, <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Dave Clements">Dave Clements</a>, <a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annasyme" alt="Anna Syme">Anna Syme</a>, <a href="/training-material/hall-of-fame/fpsom/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/fpsom" alt="Fotis E. Psomopoulos">Fotis E. Psomopoulos</a>, <a href="/training-material/hall-of-fame/tobyhodges/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tobyhodges" alt="Toby Hodges">Toby Hodges</a>, <a href="/training-material/hall-of-fame/blankclemens/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankclemens" alt="Clemens Blank">Clemens Blank</a>, <a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bgruening" alt="Björn Grüning">Björn Grüning</a>, <a href="/training-material/hall-of-fame/dyusuf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/dyusuf" alt="Dilmurat Yusuf">Dilmurat Yusuf</a>, <a href="/training-material/hall-of-fame/sarah-peter/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/sarah-peter" alt="Sarah Peter">Sarah Peter</a>, <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a>, <a href="/training-material/hall-of-fame/joachimwolff/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/joachimwolff" alt="Joachim Wolff">Joachim Wolff</a>, <a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/abretaud" alt="Anthony Bretaudeau">Anthony Bretaudeau</a>
+ <a href="/training-material/hall-of-fame/bagnacan/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bagnacan" alt="Andrea Bagnacani">Andrea Bagnacani</a> <a href="/training-material/hall-of-fame/bebatut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bebatut" alt="Bérénice Batut">Bérénice Batut</a> <a href="/training-material/hall-of-fame/shiltemann/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/shiltemann" alt="Saskia Hiltemann">Saskia Hiltemann</a> <a href="/training-material/hall-of-fame/pajanne/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/pajanne" alt="Anne Pajon">Anne Pajon</a> <a href="/training-material/hall-of-fame/nsoranzo/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nsoranzo" alt="Nicola Soranzo">Nicola Soranzo</a> <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a> <a href="/training-material/hall-of-fame/chrisbarnettster/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/chrisbarnettster" alt="Christopher Barnett">Christopher Barnett</a> <a href="/training-material/hall-of-fame/michelemaroni89/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/michelemaroni89" alt="Michele Maroni">Michele Maroni</a> <a href="/training-material/hall-of-fame/annefou/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annefou" alt="Anne Fouilloux">Anne Fouilloux</a> <a href="/training-material/hall-of-fame/nagoue/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nagoue" alt="Nadia Goué">Nadia Goué</a> <a href="/training-material/hall-of-fame/olanag1/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/olanag1" alt="Olha Nahorna">Olha Nahorna</a> <a href="/training-material/hall-of-fame/tnabtaf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tnabtaf" alt="Dave Clements">Dave Clements</a> <a href="/training-material/hall-of-fame/annasyme/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/annasyme" alt="Anna Syme">Anna Syme</a> <a href="/training-material/hall-of-fame/fpsom/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/fpsom" alt="Fotis E. Psomopoulos">Fotis E. Psomopoulos</a> <a href="/training-material/hall-of-fame/tobyhodges/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/tobyhodges" alt="Toby Hodges">Toby Hodges</a> <a href="/training-material/hall-of-fame/blankclemens/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankclemens" alt="Clemens Blank">Clemens Blank</a> <a href="/training-material/hall-of-fame/bgruening/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/bgruening" alt="Björn Grüning">Björn Grüning</a> <a href="/training-material/hall-of-fame/dyusuf/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/dyusuf" alt="Dilmurat Yusuf">Dilmurat Yusuf</a> <a href="/training-material/hall-of-fame/sarah-peter/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/sarah-peter" alt="Sarah Peter">Sarah Peter</a> <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a> <a href="/training-material/hall-of-fame/joachimwolff/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/joachimwolff" alt="Joachim Wolff">Joachim Wolff</a> <a href="/training-material/hall-of-fame/mvdbeek/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/mvdbeek" alt="Marius van den Beek">Marius van den Beek</a> <a href="/training-material/hall-of-fame/blankenberg/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/blankenberg" alt="Daniel Blankenberg">Daniel Blankenberg</a> <a href="/training-material/hall-of-fame/abretaud/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/abretaud" alt="Anthony Bretaudeau">Anthony Bretaudeau</a>
 
 
 
@@ -2207,6 +2633,7 @@
 
 <footer>
     <div class="container">
+        <br><br>
         <p>
             The <a href="https://galaxyproject.org/teach/gtn/">Galaxy Training Network</a>
             provides researchers with online training materials, connects them with local trainers, and helps promoting open data analysis practices worldwide.
@@ -2214,7 +2641,7 @@
         <p>
     The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 </p>
-        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/c0fb78a0b299329cd9bc9a6ed844d05e99ee7491">c0fb78a0b299329cd9bc9a6ed844d05e99ee7491</a></p>
+        <p>This is revision <a href="https://github.com/galaxyproject/training-material/commit/44a14fe58e8630e5f770403d0cbab58b0633c306">44a14fe58e8630e5f770403d0cbab58b0633c306</a></p>
     </div>
 </footer>
 

@@ -6,16 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Making sense of a newly assembled genome</title>
         
-            <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', '' , 'auto');
-    ga('send', 'pageview');
-</script>
+            <script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
 
-<script async defer data-domain="training.galaxyproject.org" src="https://plausible.galaxyproject.eu/js/plausible.js"></script>
         
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap.min.css?v=3">
         <link rel="stylesheet" href="/training-material/assets/css/bootstrap-toc.min.css">
@@ -78,55 +70,87 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Language Selector">
-                            <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Language
-                        </a>
-                        <div class="dropdown-menu">
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fassembly%2Ftutorials%2Fecoli_comparison%2Ftutorial.html&edit-text=&act=url" title="">
-                                Français
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fassembly%2Ftutorials%2Fecoli_comparison%2Ftutorial.html&edit-text=&act=url" title="">
-                                日本語
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fassembly%2Ftutorials%2Fecoli_comparison%2Ftutorial.html&edit-text=&act=url" title="">
-                                Español
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fassembly%2Ftutorials%2Fecoli_comparison%2Ftutorial.html&edit-text=&act=url" title="">
-                                Português
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fassembly%2Ftutorials%2Fecoli_comparison%2Ftutorial.html&edit-text=&act=url" title="">
-                                العربية
-                            </a>
-                            
-                            <a class="dropdown-item" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fassembly%2Ftutorials%2Fecoli_comparison%2Ftutorial.html&edit-text=&act=url" title="">
-                                And more!
-                            </a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown">
     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Help">
         <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">help</span> Help
     </a>
     <div class="dropdown-menu dropdown-menu-right">
+        <!-- disable Tess for now
         <form method="get" action="https://tess.elixir-europe.org/materials">
             <input type="text" id="search" name="q" value="" style="margin-left: 0.5em;/*! border-radius: 0px; */">
             <input type="hidden" value="Galaxy Training" name="content_provider">
             <input type="submit" value="Search on TeSS" style="width: 92%;border-radius: 0px;margin: 0.5em;background: #f47d20;border: 0px;padding: 0.25em;" class="">
         </form>
+        -->
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQ">
-            FAQ
+        <a class="dropdown-item" href="/training-material/faq" title="Check our FAQs">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> FAQs
         </a>
+        
+        <a class="dropdown-item" href="/training-material/topics/assembly/faqs/" title="Check our FAQs for the Assembly topic">
+           <i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Topic FAQs
+        </a>
+        
         <a class="dropdown-item" href="https://help.galaxyproject.org/" title="Discuss on Galaxy Help">
-            Discuss on Galaxy Help
+            <i class="far fa-comments" aria-hidden="true"></i><span class="visually-hidden">feedback</span> Galaxy Help Forum
         </a>
+        <a class="dropdown-item" href="https://gitter.im/Galaxy-Training-Network/Lobby" title="Discuss on gitter">
+           <i class="fab fa-gitter" aria-hidden="true"></i><span class="visually-hidden">gitter</span> Discuss on Gitter
+        </a>
+    </div>
+</li>
+
+
+                    <li class="nav-item dropdown">
+    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" title="Extras">
+        <i class="far fa-star" aria-hidden="true"></i><span class="visually-hidden">galaxy-star</span> Extras
+    </a>
+    <div class="dropdown-menu dropdown-menu-right">
+
+        
+        <a class="dropdown-item" href="https://github.com/galaxyproject/training-material/edit/main/topics/assembly/tutorials/ecoli_comparison/tutorial.md" title="Edit on GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit on GitHub
+        </a>
+
+        <a class="dropdown-item" href="/training-material/stats.html" title="Show view statistics about this rrepository">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> GTN statistics
+        </a>
+
+        <a class="dropdown-item" href="https://plausible.galaxyproject.eu/training.galaxyproject.org?period=12mo&page=/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html" title="Show view statistics of this page">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i><span class="visually-hidden">galaxy-barchart</span> Page Metrics
+        </a>
+
+        <div class="dropdown-item">
+            <div>
+                <i class="fas fa-language" aria-hidden="true"></i><span class="visually-hidden">language</span> Translate this page
+            </div>
+
+            <div id="lang-selector">
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=fr&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/assembly/tutorials/ecoli_comparison/tutorial.html&edit-text=&act=url">
+                Français
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ja&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/assembly/tutorials/ecoli_comparison/tutorial.html&edit-text=&act=url">
+                日本語
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=es&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/assembly/tutorials/ecoli_comparison/tutorial.html&edit-text=&act=url">
+                Español
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=pt&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/assembly/tutorials/ecoli_comparison/tutorial.html&edit-text=&act=url">
+                Português
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=ar&u=https%3A%2F%2Ftraining.galaxyproject.org/topics/assembly/tutorials/ecoli_comparison/tutorial.html&edit-text=&act=url">
+                العربية
+                </a>
+                
+                <a class="btn btn-info" href="https://translate.google.com/translate?hl=jp&sl=en&tl=&u=https%3A%2F%2Ftraining.galaxyproject.org%2Ftopics%2Fassembly%2Ftutorials%2Fecoli_comparison%2Ftutorial.html&edit-text=&act=url" title="">
+                And more!
+                </a>
+            </div>
+        </div>
 
         <div class="dropdown-item">
             <div>
@@ -149,18 +173,36 @@
                 <label data-value="halloween" class="btn btn-secondary">
                     <input type="radio" name="options" id="halloween" autocomplete="off"> 🎃
                 </label>
+                <label data-value="straya" class="btn btn-secondary">
+                    <input type="radio" name="options" id="downunder" autocomplete="off"> 🇦🇺
+                </label>
             </div>
 
         </div>
     </div>
 </li>
 
-
+                    <!--
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/galaxyproject/training-material/edit/master/topics/assembly/tutorials/ecoli_comparison/tutorial.md">
+                        <a class="nav-link" href="https://github.com/galaxyproject/training-material/edit/main/topics/assembly/tutorials/ecoli_comparison/tutorial.md">
                             <i class="fab fa-github" aria-hidden="true"></i><span class="visually-hidden">github</span> Edit
                         </a>
                     </li>
+                    -->
+
+                     <!-- Search bar-->
+                    <li class="nav-item">
+                      <div id="navbarSupportedContent">
+                        <!-- Search form -->
+                        <form class="form-inline mr-auto" method="GET" action="/training-material/search">
+                          <i class="fas fa-search nav-link" aria-hidden="true"></i>
+                          <div class="md-form mb-2">
+                            <input name="query" class="form-control nicer" type="text" placeholder="Search Tutorials" aria-label="Search">
+                          </div>
+                        </form>
+                      </div>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -216,7 +258,7 @@
   },
   "interactivityType": "mixed",
   "isAccessibleForFree": true,
-  "license": "https://github.com/galaxyproject/training-material/blob/master/LICENSE.md",
+  "license": "https://github.com/galaxyproject/training-material/blob/main/LICENSE.md",
   "producer": {
     "@type": "Organization",
     "email": "galaxytrainingnetwork@gmail.com",
@@ -366,7 +408,7 @@
 
         <div class="contributors-line">By: 
 
-<a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a>, <a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/delphine-l" alt="Delphine Lariviere">Delphine Lariviere</a>, <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a>
+ <a href="/training-material/hall-of-fame/nekrut/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/nekrut" alt="Anton Nekrutenko">Anton Nekrutenko</a> <a href="/training-material/hall-of-fame/delphine-l/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/delphine-l" alt="Delphine Lariviere">Delphine Lariviere</a> <a href="/training-material/hall-of-fame/hexylena/" class="contributor-badge"><img src="https://avatars.githubusercontent.com/hexylena" alt="Helena Rasche">Helena Rasche</a>
 
 </div>
 
@@ -461,6 +503,12 @@
                         
                     
                         
+                    
+                        
+                    
+                        
+                    
+                        
                             
                             <li> Unicycler Assembly:
                             
@@ -521,11 +569,15 @@
 
                 
                     <li class="btn btn-default supporting_material">
-<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/master/topics/assembly/tutorials/ecoli_comparison/tours/">
+<a class="topic-icon" href="https://github.com/galaxyproject/training-material/tree/main/topics/assembly/tutorials/ecoli_comparison/tours/">
     <i class="fas fa-magic" aria-hidden="true"></i><span class="visually-hidden">interactive_tour</span> Tours
 </a>
 
 </li>
+                
+
+                
+                
                 
 
                 
@@ -537,11 +589,13 @@
     <ul class="dropdown-menu">
     
         <li>
-            <a class="dropdown-item" href="https://github.com/galaxyproject/training-material/tree/master/topics/assembly/docker" title="Docker image for this tutorial">
+            <a class="dropdown-item" href="https://github.com/galaxyproject/training-material/tree/main/topics/assembly/docker" title="Docker image for this tutorial">
                 <i class="fab fa-docker" aria-hidden="true"></i><span class="visually-hidden">docker_image</span> Docker image
             </a>
         </li>
     
+    
+        
     
         
     
@@ -586,6 +640,10 @@
         
     
         
+    
+        
+    
+        
         <a class="dropdown-item" href="https://africa.usegalaxy.eu/" title="Galaxy Africa">
             Galaxy Africa
         </a>
@@ -598,13 +656,9 @@
         
     
         
-    
-        
         <a class="dropdown-item" href="https://galaxy.genouest.org" title="Galaxy@GenOuest">
             Galaxy@GenOuest
         </a>
-        
-    
         
     
         
@@ -646,11 +700,27 @@
         
     
         
-        <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
-            NanoGalaxy
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://metagenomics.usegalaxy.eu/" title="Metagenomics">
+            Metagenomics
         </a>
         
     
+        
+    
+        
+    
+        
+    
+        
+        <a class="dropdown-item" href="https://nanopore.usegalaxy.eu/" title="NanoGalaxy">
+            NanoGalaxy
+        </a>
         
     
         
@@ -668,7 +738,17 @@
         
     
         
+        <a class="dropdown-item" href="https://streetscience.usegalaxy.eu/" title="Street Science">
+            Street Science
+        </a>
+        
     
+        
+    
+        
+        <a class="dropdown-item" href="https://usegalaxy.be/" title="UseGalaxy.be">
+            UseGalaxy.be
+        </a>
         
     
         
@@ -696,6 +776,10 @@
         
     
         
+        <a class="dropdown-item" href="https://virology.usegalaxy.eu/" title="Virology">
+            Virology
+        </a>
+        
     
     </ul>
 
@@ -706,7 +790,7 @@
             </ul>
             
 
-            <p><strong> <i class="far fa-calendar" aria-hidden="true"></i><span class="visually-hidden">last_modification</span> Last modification:</strong> Dec 11, 2020 </p>
+            <p><strong> <i class="far fa-calendar" aria-hidden="true"></i><span class="visually-hidden">last_modification</span> Last modification:</strong> Mar 23, 2021 </p>
         </blockquote>
 
         <div class="container">
@@ -761,28 +845,8 @@
       <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://zenodo.org/record/3382053/files/genomes_proks.txt
 </code></pre></div>      </div>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-importing-data-via-links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Importing data via links</h3>
-
-        <ul>
-          <li>Copy the link location</li>
-          <li>
-            <p>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</p>
-          </li>
-          <li>Select <strong>Paste/Fetch Data</strong></li>
-          <li>
-            <p>Paste the link into the text field</p>
-          </li>
-          <li>
-            <p>Press <strong>Start</strong></p>
-          </li>
-          <li><strong>Close</strong> the window</li>
-        </ul>
-
-        <p>By default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</p>
-
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-importing-via-links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing via links</h3>  <ul>    <li>Copy the link location</li>    <li>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</li>    <li>Select <strong>Paste/Fetch Data</strong></li>    <li>Paste the link into the text field</li>    <li>Press <strong>Start</strong></li>    <li><strong>Close</strong> the windowBy default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</li>  </ul></blockquote>
     </li>
     <li>
       <p>And skip ahead to <a href="#comparing-genome-architectures">comparing the most related genomes</a>.</p>
@@ -805,81 +869,66 @@
 
       <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://zenodo.org/record/3382053/files/genomes_proks.txt
 </code></pre></div>      </div>
+    </li>
+  </ol>
 
-      <blockquote class="tip">
-        <h3 id="question-getting-the-data-directly-from-ncbi"><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Getting the data directly from NCBI</h3>
+</blockquote>
 
-        <p>For this tutorial we made this dataset available from Zenodo, but it is of course also possible to obtain the data directly from NCBI.
+<blockquote class="details">
+  <h3 id="details-getting-the-data-directly-from-ncbi"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="visually-hidden">details</span> Getting the data directly from NCBI</h3>
+
+  <p>For this tutorial we made this dataset available from Zenodo, but it is of course also possible to obtain the data directly from NCBI.
 Note that the format of the files on NCBI may change, which means some of the parameter settings of tools in this tutorial will need
 to be altered (e.g. column numbers) when using data directly from NCBI.</p>
 
-        <p>Below we describe how you could obtain this data from NCBI.</p>
+  <p>Below we describe how you could obtain this data from NCBI.</p>
 
-        <ol>
-          <li>
-            <p>Open <a href="https://www.ncbi.nlm.nih.gov/genome/genomes/167">the NCBI list of of <em>E. coli</em> genomes</a> in a new window</p>
-          </li>
-          <li>
-            <p>Click on “Filters” at the top right:</p>
-
-            <p><img src="../../images/ecoli-list-filter.png" alt="Filter menu button" /></p>
-          </li>
-          <li>
-            <p>Select only the “Complete” genomes with the filter at the top</p>
-
-            <p><img src="../../images/ecoli-list.png" alt="Filter settings, only &quot;complete&quot; is checked" /></p>
-          </li>
-          <li>
-            <p>At the top right, click “Download”</p>
-          </li>
-          <li>
-            <p>Upload this table to <span class="notranslate">Galaxy</span></p>
-          </li>
-          <li>
-            <p>As this file is a CSV file, we need to convert it to TSV before <span class="notranslate">Galaxy</span> can use it.</p>
-
-            <blockquote>
-
-              <h3 id="tip-tip-converting-the-file-format"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Converting the file format</h3>
-              <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   * Click on the &lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;<span class="notranslate">galaxy</span>-pencil&lt;/span&gt; **pencil icon** for the dataset to edit its attributes
-   * In the central panel, click on the &lt;i class="fas fa-cog" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;<span class="notranslate">galaxy</span>-gear&lt;/span&gt; **Convert** tab on the top
-   * Select `Convert CSV to Tabular`
-   * Click the **Convert datatype** button
-</code></pre></div>              </div>
-            </blockquote>
-          </li>
-        </ol>
-      </blockquote>
-
-      <blockquote class="tip">
-
-        <ol>
-          <li>
-            <p>Rename this file to <code class="language-plaintext highlighter-rouge">genomes.tsv</code></p>
-
-            <blockquote>
-
-              <h3 id="tip-tip-converting-the-file-format-1"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Converting the file format</h3>
-              <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   * Click on the &lt;i class="fas fa-pencil-alt" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;<span class="notranslate">galaxy</span>-pencil&lt;/span&gt; **pencil icon** for the dataset to edit its attributes
-   * In the central panel, click on the &lt;i class="fas fa-cog" aria-hidden="true"&gt;&lt;/i&gt;&lt;span class="visually-hidden"&gt;<span class="notranslate">galaxy</span>-gear&lt;/span&gt; **Convert** tab on the top
-   * Select `Convert CSV to Tabular`
-   * Click the **Convert datatype** button
-</code></pre></div>              </div>
-            </blockquote>
-          </li>
-        </ol>
-      </blockquote>
-
-      <blockquote class="question">
-
-      </blockquote>
+  <ol>
+    <li>
+      <p>Open <a href="https://www.ncbi.nlm.nih.gov/genome/genomes/167">the NCBI list of of <em>E. coli</em> genomes</a> in a new window</p>
     </li>
+    <li>
+      <p>Click on “Filters” at the top right:</p>
+
+      <p><img src="../../images/ecoli-list-filter.png" alt="Filter menu button" /></p>
+    </li>
+    <li>
+      <p>Select only the “Complete” genomes with the filter at the top</p>
+
+      <p><img src="../../images/ecoli-list.png" alt="Filter settings, only &quot;complete&quot; is checked" /></p>
+    </li>
+    <li>
+      <p>At the top right, click “Download”</p>
+    </li>
+    <li>
+      <p>Upload this table to <span class="notranslate">Galaxy</span></p>
+    </li>
+    <li>
+      <p>As this file is a CSV file, we need to convert it to TSV before <span class="notranslate">Galaxy</span> can use it.</p>
+
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-converting-the-file-format"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Converting the file format</h3>  <ul>    <li>In the central panel, click on the <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> <strong>Convert</strong> tab on the top</li>    <li>Select <code class="language-plaintext highlighter-rouge">Convert CSV to Tabular</code></li>    <li>Click the <strong>Convert datatype</strong> button</li>  </ul></blockquote>
+    </li>
+    <li>
+      <p>Rename this file to <code class="language-plaintext highlighter-rouge">genomes.tsv</code></p>
+
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-converting-the-file-format"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Converting the file format</h3>  <ul>    <li>In the central panel, click on the <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> <strong>Convert</strong> tab on the top</li>    <li>Select <code class="language-plaintext highlighter-rouge">Convert CSV to Tabular</code></li>    <li>Click the <strong>Convert datatype</strong> button</li>  </ul></blockquote>
+    </li>
+  </ol>
+
+</blockquote>
+
+<blockquote class="notranslate hands_on">
+  <h3 id="hands_on-hands-on-preparing-a-list-of-all-complete-e-coli-genomes-1"><i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden">hands_on</span> Hands-on: Preparing a list of all complete <em>E. coli</em> genomes</h3>
+
+  <ol>
     <li>
       <p><span class="tool" data-tool="Cut1" title="Tested with Cut1"><strong>Cut</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: Cut1</span></span>    columns from a table:</p>
 
       <ul>
         <li><em>“Cut columns”</em>: <code class="language-plaintext highlighter-rouge">c8,c20</code></li>
-        <li><em>“From”</em>: the tabular version of the file.</li>
+        <li><em>“From”</em>: <code class="language-plaintext highlighter-rouge">genome_proks.txt</code></li>
       </ul>
     </li>
   </ol>
@@ -1046,43 +1095,37 @@ GCA_003018575.1 | ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/003/018/575/GCA_003
     <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2" title="Tested with toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2"><strong>Replace Text</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_line/1.1.2</span></span>  in entire line:
       <ul>
         <li><em>“File to process”</em>: the output of the Filter sequences by length <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span></li>
-        <li><em>“1: Replacement”</em></li>
+        <li><em>“1: Replacement”</em>
+          <ul>
+            <li><em>“Find Pattern”</em>: <code class="language-plaintext highlighter-rouge">^&gt;1.*</code></li>
+            <li><em>“Replace with”</em>: <code class="language-plaintext highlighter-rouge">&gt;Ecoli_C</code></li>
+          </ul>
+        </li>
       </ul>
-      <ul>
-        <li><em>“Find Pattern”</em>: <code class="language-plaintext highlighter-rouge">^&gt;1.*</code></li>
-        <li><em>“Replace with”</em>: <code class="language-plaintext highlighter-rouge">&gt;Ecoli_C</code></li>
-      </ul>
+
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">E. coli C</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
+
+      <blockquote class="tip">
+        <h3 id="tip-regular-expressions"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Regular <span class="notranslate">Expression</span>s</h3>
+
+        <p>The program we just entered is a so-called <a href="https://en.wikipedia.org/wiki/Regular_expression">Regular <span class="notranslate">Expression</span></a></p>
+
+        <p>The <span class="notranslate">expression</span> <code class="language-plaintext highlighter-rouge">^&gt;1.*</code> contains several pieces that you need to understand. Let’s write it top-to-bottom and explain:</p>
+
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">^</code> - says start looking at <em>the beginning</em> of each line</li>
+          <li><code class="language-plaintext highlighter-rouge">&gt;</code> - is the first character we want to match. Remember that name of the sequence in FASTA files starts with <code class="language-plaintext highlighter-rouge">&gt;</code></li>
+          <li><code class="language-plaintext highlighter-rouge">1</code> - is the number present is our old name (<code class="language-plaintext highlighter-rouge">&gt;1 length=4576293 depth=1.00x circular=true</code> to <code class="language-plaintext highlighter-rouge">&gt;Ecoli_C</code>)</li>
+          <li><code class="language-plaintext highlighter-rouge">.</code> - dot has a special meaning. It signifies <em>any</em> character</li>
+          <li><code class="language-plaintext highlighter-rouge">*</code> - is a <em>quantifier</em>. From <a href="https://en.wikipedia.org/wiki/Regular_expression">Wikipedia</a>: “The asterisk indicates zero or more occurrences of the preceding element. For example, ab*c matches <code class="language-plaintext highlighter-rouge">ac</code>, <code class="language-plaintext highlighter-rouge">abc</code>, <code class="language-plaintext highlighter-rouge">abbc</code>, <code class="language-plaintext highlighter-rouge">abbbc</code>, and so on.”</li>
+        </ul>
+
+        <p>So in short we are replacing <code class="language-plaintext highlighter-rouge">&gt;1 length=4576293 depth=1.00x circular=true</code> with <code class="language-plaintext highlighter-rouge">&gt;Ecoli_C</code>. The <em>Regular <span class="notranslate">expression</span></em> <code class="language-plaintext highlighter-rouge">^&gt;1.*</code> is used here to represent <code class="language-plaintext highlighter-rouge">&gt;1 length=4576293 depth=1.00x circular=true</code>.<br />
+Detailed description of regular <span class="notranslate">expression</span>s is outside of the scope of this tutorial, but there are other great resources. Start with <a href="http://v4.software-carpentry.org/regexp/index.html">Software Carpentry Regular <span class="notranslate">Expression</span>s tutorial</a>.</p>
+      </blockquote>
     </li>
   </ol>
-
-  <blockquote class="tip">
-
-    <h3 id="tip-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-    <ul>
-      <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-      <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">E. coli C</code></li>
-      <li>Click the <strong>Save</strong> button</li>
-    </ul>
-  </blockquote>
-
-  <blockquote class="tip">
-    <h3 id="tip-regular-expressions"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Regular <span class="notranslate">Expression</span>s</h3>
-
-    <p>The program we just entered is a so-called <a href="https://en.wikipedia.org/wiki/Regular_expression">Regular <span class="notranslate">Expression</span></a></p>
-
-    <p>The <span class="notranslate">expression</span> <code class="language-plaintext highlighter-rouge">^&gt;1.*</code> contains several pieces that you need to understand. Let’s write it top-to-bottom and explain:</p>
-
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">^</code> - says start looking at <em>the beginning</em> of each line</li>
-      <li><code class="language-plaintext highlighter-rouge">&gt;</code> - is the first character we want to match. Remember that name of the sequence in FASTA files starts with <code class="language-plaintext highlighter-rouge">&gt;</code></li>
-      <li><code class="language-plaintext highlighter-rouge">1</code> - is the number present is our old name (<code class="language-plaintext highlighter-rouge">&gt;1 length=4576293 depth=1.00x circular=true</code> to <code class="language-plaintext highlighter-rouge">&gt;Ecoli_C</code>)</li>
-      <li><code class="language-plaintext highlighter-rouge">.</code> - dot has a special meaning. It signifies <em>any</em> character</li>
-      <li><code class="language-plaintext highlighter-rouge">*</code> - is a <em>quantifier</em>. From <a href="https://en.wikipedia.org/wiki/Regular_expression">Wikipedia</a>: “The asterisk indicates zero or more occurrences of the preceding element. For example, ab*c matches <code class="language-plaintext highlighter-rouge">ac</code>, <code class="language-plaintext highlighter-rouge">abc</code>, <code class="language-plaintext highlighter-rouge">abbc</code>, <code class="language-plaintext highlighter-rouge">abbbc</code>, and so on.”</li>
-    </ul>
-
-    <p>So in short we are replacing <code class="language-plaintext highlighter-rouge">&gt;1 length=4576293 depth=1.00x circular=true</code> with <code class="language-plaintext highlighter-rouge">&gt;Ecoli_C</code>. The <em>Regular <span class="notranslate">expression</span></em> <code class="language-plaintext highlighter-rouge">^&gt;1.*</code> is used here to represent <code class="language-plaintext highlighter-rouge">&gt;1 length=4576293 depth=1.00x circular=true</code>.<br />
-Detailed description of regular <span class="notranslate">expression</span>s is outside of the scope of this tutorial, but there are other great resources. Start with <a href="http://v4.software-carpentry.org/regexp/index.html">Software Carpentry Regular <span class="notranslate">Expression</span>s tutorial</a>.</p>
-  </blockquote>
 
   <blockquote class="question">
     <h3 id="question-questions-1"><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Questions</h3>
@@ -1373,6 +1416,14 @@ Ecoli_C BA000007.2 63.06 157 33 3 1874604 1874735 5991 6147 5.8e-26 115.3
   <p>Using the three accession listed above we will fetch necessary data from NCBI. We will use the sp<span class="notranslate">reads</span>heet we uploaded at the start to accomplish this.</p>
 
   <ol>
+    <li><span class="tool" data-tool="upload1" title="Tested with upload1"><strong>Upload</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: upload1</span></span>  the <em>E. coli</em> C genome if you have not done so already:
+      <ul>
+        <li>Click <strong>Paste/Fetch data</strong> button (Bottom of the interface box)</li>
+        <li><strong>Paste</strong> <code class="language-plaintext highlighter-rouge">https://zenodo.org/record/1306128/files/Ecoli_C_assembly.fna</code> into the box.</li>
+        <li><em>“Type”</em>: <code class="language-plaintext highlighter-rouge">fasta</code></li>
+        <li>Click <strong>Start</strong></li>
+      </ul>
+    </li>
     <li><span class="tool" data-tool="Grep1" title="Tested with Grep1"><strong>Select lines that match an <span class="notranslate">expression</span></strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: Grep1</span></span>  with the following parameters:
       <ul>
         <li><em>“Select lines from”</em>: the <code class="language-plaintext highlighter-rouge">genomes.tsv</code> you uploaded earlier</li>
@@ -1418,7 +1469,7 @@ GCA_900186905.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/900/186/905/GCA_90018
             <h3 id="tip-take-a-shortcut"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Take a Shortcut</h3>
             <p>This step is quite long and potentially error prone. If you want to skip those steps, you can copy and paste this bit of text:</p>
 
-            <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"rules"</span><span class="p">:[{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_regex"</span><span class="p">,</span><span class="nl">"target_column"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"<span class="notranslate">expression</span>"</span><span class="p">:</span><span class="s2">".*(</span><span class="se">\\</span><span class="s2">/GCA.*$)"</span><span class="p">,</span><span class="nl">"group_count"</span><span class="p">:</span><span class="mi">1</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_concatenate"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">2</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"remove_columns"</span><span class="p">,</span><span class="nl">"target_columns"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"_feature_table.txt.gz"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"_genomic.fna.gz"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_concatenate"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">2</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_concatenate"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">3</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"remove_columns"</span><span class="p">,</span><span class="nl">"target_columns"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"Genes"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"<span class="notranslate">DNA</span>"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_regex"</span><span class="p">,</span><span class="nl">"target_column"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nl">"<span class="notranslate">expression</span>"</span><span class="p">:</span><span class="s2">".*</span><span class="se">\\</span><span class="s2">/(.*)"</span><span class="p">,</span><span class="nl">"group_count"</span><span class="p">:</span><span class="mi">1</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"swap_columns"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">5</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"remove_columns"</span><span class="p">,</span><span class="nl">"target_columns"</span><span class="p">:[</span><span class="mi">5</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"split_columns"</span><span class="p">,</span><span class="nl">"target_columns_0"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="nl">"target_columns_1"</span><span class="p">:[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">]}],</span><span class="nl">"<span class="notranslate">mapping</span>"</span><span class="p">:[{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"list_identifiers"</span><span class="p">,</span><span class="nl">"columns"</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="nl">"editing"</span><span class="p">:</span><span class="kc">false</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"url"</span><span class="p">,</span><span class="nl">"columns"</span><span class="p">:[</span><span class="mi">1</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"collection_name"</span><span class="p">,</span><span class="nl">"columns"</span><span class="p">:[</span><span class="mi">2</span><span class="p">]}]}</span><span class="w">
+            <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"rules"</span><span class="p">:[{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_regex"</span><span class="p">,</span><span class="nl">"target_column"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"<span class="notranslate">expression</span>"</span><span class="p">:</span><span class="s2">".*(</span><span class="se">\\</span><span class="s2">/GCA.*$)"</span><span class="p">,</span><span class="nl">"group_count"</span><span class="p">:</span><span class="mi">1</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_concatenate"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">2</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"remove_columns"</span><span class="p">,</span><span class="nl">"target_columns"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"_feature_table.txt.gz"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"_genomic.fna.gz"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_concatenate"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">2</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_concatenate"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">3</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"remove_columns"</span><span class="p">,</span><span class="nl">"target_columns"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"Genes"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_value"</span><span class="p">,</span><span class="nl">"value"</span><span class="p">:</span><span class="s2">"<span class="notranslate">DNA</span>"</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"add_column_regex"</span><span class="p">,</span><span class="nl">"target_column"</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="nl">"<span class="notranslate">expression</span>"</span><span class="p">:</span><span class="s2">".*</span><span class="se">\\</span><span class="s2">/(.*)"</span><span class="p">,</span><span class="nl">"group_count"</span><span class="p">:</span><span class="mi">1</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"swap_columns"</span><span class="p">,</span><span class="nl">"target_column_0"</span><span class="p">:</span><span class="mi">0</span><span class="p">,</span><span class="nl">"target_column_1"</span><span class="p">:</span><span class="mi">5</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"remove_columns"</span><span class="p">,</span><span class="nl">"target_columns"</span><span class="p">:[</span><span class="mi">5</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"split_columns"</span><span class="p">,</span><span class="nl">"target_columns_0"</span><span class="p">:[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">],</span><span class="nl">"target_columns_1"</span><span class="p">:[</span><span class="mi">2</span><span class="p">,</span><span class="mi">4</span><span class="p">]}],</span><span class="nl">"<span class="notranslate">mapping</span>"</span><span class="p">:[{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"list_identifiers"</span><span class="p">,</span><span class="nl">"columns"</span><span class="p">:[</span><span class="mi">0</span><span class="p">],</span><span class="nl">"editing"</span><span class="p">:</span><span class="kc">false</span><span class="p">},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"url"</span><span class="p">,</span><span class="nl">"columns"</span><span class="p">:[</span><span class="mi">1</span><span class="p">]},{</span><span class="nl">"type"</span><span class="p">:</span><span class="s2">"collection_name"</span><span class="p">,</span><span class="nl">"columns"</span><span class="p">:[</span><span class="mi">2</span><span class="p">]}]}</span><span class="w">
 </span></code></pre></div>            </div>
 
             <p>You can click the <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span> next to the header <strong>Rules</strong> <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span>, and paste the contents there, before clicking <strong>Apply</strong>, checking “Add nametag for name” and then <strong>Upload</strong>.</p>
@@ -1492,7 +1543,7 @@ GCA_900186905.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/900/186/905/GCA_90018
         </li>
         <li>From <strong>Column</strong>, select <code class="language-plaintext highlighter-rouge">Using a Regular <span class="notranslate">Expression</span></code>
           <ul>
-            <li><em>“From Column”</em>: <code class="language-plaintext highlighter-rouge">A</code></li>
+            <li><em>“From Column”</em>: <code class="language-plaintext highlighter-rouge">B</code></li>
             <li>Select <code class="language-plaintext highlighter-rouge">Create columns matching <span class="notranslate">expression</span> groups</code></li>
             <li><em>“Regular <span class="notranslate">Expression</span>”</em>: <code class="language-plaintext highlighter-rouge">.*\/(.*)</code></li>
             <li><em>“Number of Groups”</em>: <code class="language-plaintext highlighter-rouge">1</code></li>
@@ -1592,17 +1643,8 @@ GCA_900186905.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/900/186/905/GCA_90018
     <li>
       <p>Rename the <code class="language-plaintext highlighter-rouge">LASTZ on collection... mapped <span class="notranslate">reads</span></code> something more memorable like <code class="language-plaintext highlighter-rouge">LASTZ Alignments</code></p>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-renaming-a-collection"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a collection</h3>
-
-        <ol>
-          <li>Click on the collection</li>
-          <li>Click on the name of the collection at the top</li>
-          <li>Change the name  to <code class="language-plaintext highlighter-rouge">LASTZ Alignments</code></li>
-          <li>Press <kbd>Enter</kbd></li>
-        </ol>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-collection"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a collection</h3>  <ol>    <li>Click on the collection</li>    <li>Click on the name of the collection at the top</li>    <li>Change the name  to <code class="language-plaintext highlighter-rouge">LASTZ Alignments</code></li>    <li>Press <kbd>Enter</kbd></li>  </ol></blockquote>
     </li>
   </ol>
 
@@ -1645,16 +1687,8 @@ GCA_900186905.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/900/186/905/GCA_90018
     <li>
       <p>Convert the datatype of this output to uncompress it</p>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-converting-the-file-format-2"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Converting the file format</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, click on the <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> <strong>Convert</strong> tab on the top</li>
-          <li>Select <code class="language-plaintext highlighter-rouge">Convert compressed to uncompressed</code></li>
-          <li>Click the <strong>Convert datatype</strong> button</li>
-        </ul>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-converting-the-file-format"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Converting the file format</h3>  <ul>    <li>In the central panel, click on the <i class="fas fa-cog" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-gear</span> <strong>Convert</strong> tab on the top</li>    <li>Select <code class="language-plaintext highlighter-rouge">Convert compressed to uncompressed</code></li>    <li>Click the <strong>Convert datatype</strong> button</li>  </ul></blockquote>
     </li>
     <li><span class="tool" data-tool="toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0" title="Tested with toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0"><strong>Concatenate datasets</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: <span class="notranslate">toolshed</span>.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/0.1.0</span></span>  tail-to-head (cat):
       <ul>
@@ -1669,18 +1703,10 @@ GCA_900186905.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/900/186/905/GCA_90018
     <li>
       <p>Rename the output to <code class="language-plaintext highlighter-rouge"><span class="notranslate">DNA</span> (E. coli C + Relatives)</code></p>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-renaming-a-dataset-1"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge"><span class="notranslate">DNA</span> (E. coli C + Relatives)</code></li>
-          <li>Click the <strong>Save</strong> button</li>
-        </ul>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge"><span class="notranslate">DNA</span> (E. coli C + Relatives)</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
     </li>
   </ol>
-
 </blockquote>
 
 <p>The resulting dataset contains four sequences: three genomes plus our assembly.</p>
@@ -1817,15 +1843,8 @@ GCA_900186905.1	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/900/186/905/GCA_90018
     <li>
       <p>We will reuse this file later so let’s rename it <code class="language-plaintext highlighter-rouge">Unprocessed Alignments</code></p>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-renaming-a-dataset-2"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Unprocessed Alignments</code></li>
-          <li>Click the <strong>Save</strong> button</li>
-        </ul>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Unprocessed Alignments</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
     </li>
     <li>
       <p><span class="tool" data-tool="Cut1" title="Tested with Cut1"><strong>Cut</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: Cut1</span></span>  columns from a table:</p>
@@ -1971,15 +1990,8 @@ In the second <span class="notranslate">BED</span>, column 1 will contain name o
     <li>
       <p>Rename this “Target Alignments”</p>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-renaming-a-dataset-3"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Target Alignments</code></li>
-          <li>Click the <strong>Save</strong> button</li>
-        </ul>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Target Alignments</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
     </li>
     <li><span class="tool" data-tool="Cut1" title="Tested with Cut1"><strong>Cut columns from a table</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: Cut1</span></span>  with the following parameters
       <ul>
@@ -1990,15 +2002,8 @@ In the second <span class="notranslate">BED</span>, column 1 will contain name o
     <li>
       <p>Rename this “Query Alignments”</p>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-renaming-a-dataset-4"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Query Alignments</code></li>
-          <li>Click the <strong>Save</strong> button</li>
-        </ul>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Query Alignments</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
     </li>
     <li><span class="tool" data-tool="cat1" title="Tested with cat1"><strong>Concatenate datasets tail-to-head</strong> <i class="fas fa-wrench" aria-hidden="true"></i><i aria-hidden="true" class="fas fa-cog"></i><span class="visually-hidden">Tool: cat1</span></span>
       <ul>
@@ -2010,26 +2015,11 @@ In the second <span class="notranslate">BED</span>, column 1 will contain name o
     <li>
       <p>Change the datatype of the output to <span class="notranslate">BED</span> and rename the output “Target &amp; Query Alignments”</p>
 
-      <blockquote class="tip">
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-changing-the-datatype"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Changing the datatype</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>    <li>Select <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code></li>    <li>Click the <strong>Change datatype</strong> button</li>  </ul></blockquote>
 
-        <h3 id="tip-tip-changing-the-datatype"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Changing the datatype</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>
-          <li>Select <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code></li>
-          <li>Click the <strong>Change datatype</strong> button</li>
-        </ul>
-      </blockquote>
-
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-renaming-a-dataset-5"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Target &amp; Query Alignments</code></li>
-          <li>Click the <strong>Save</strong> button</li>
-        </ul>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Target &amp; Query Alignments</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
     </li>
   </ol>
 
@@ -2272,80 +2262,67 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
         <li><em>“Replace with”</em>: <code class="language-plaintext highlighter-rouge">_</code></li>
       </ul>
     </li>
-    <li>Change the datatype of the collection to <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code> and rename it to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives)</code></li>
+    <li>
+      <p>Change the datatype of the collection to <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code> and rename it to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives)</code></p>
+
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-changing-the-datatype"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Changing the datatype</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>    <li>Select <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code></li>    <li>Click the <strong>Change datatype</strong> button</li>  </ul></blockquote>
+
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives)</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
+
+      <blockquote class="question">
+        <h3 id="question-question"><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Question</h3>
+        <p>How does your output look?</p>
+        <blockquote class="solution">
+          <h3 id="solution-solution-2"><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden">solution</span> Solution</h3>
+
+          <p>The resulting dataset should look like this:</p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CP020543.1</td>
+                <td>49</td>
+                <td>1452</td>
+                <td>chromosomal_replication_initiator_protein_<span class="notranslate">Dna</span>A</td>
+                <td>0</td>
+                <td>+</td>
+              </tr>
+              <tr>
+                <td>CP020543.1</td>
+                <td>1457</td>
+                <td>2557</td>
+                <td><span class="notranslate">DNA</span>_polymerase_III_subunit_beta</td>
+                <td>0</td>
+                <td>+</td>
+              </tr>
+              <tr>
+                <td>CP020543.1</td>
+                <td>2557</td>
+                <td>3630</td>
+                <td><span class="notranslate">DNA</span>_replication_and_repair_protein_RecF</td>
+                <td>0</td>
+                <td>+</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>You can see that the genome ID is now appended at the beginning and this dataset looks like a legitimate <span class="notranslate">BED</span> that can be visualized.</p>
+        </blockquote>
+      </blockquote>
+    </li>
   </ol>
-
-  <blockquote class="tip">
-
-    <h3 id="tip-tip-changing-the-datatype-1"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Changing the datatype</h3>
-    <ul>
-      <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-      <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>
-      <li>Select <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code></li>
-      <li>Click the <strong>Change datatype</strong> button</li>
-    </ul>
-  </blockquote>
-
-  <blockquote class="tip">
-
-    <h3 id="tip-tip-renaming-a-dataset-6"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-    <ul>
-      <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-      <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives)</code></li>
-      <li>Click the <strong>Save</strong> button</li>
-    </ul>
-  </blockquote>
-
-  <blockquote class="question">
-    <h3 id="question-question"><i class="far fa-question-circle" aria-hidden="true"></i><span class="visually-hidden">question</span> Question</h3>
-    <p>How does your output look?</p>
-    <blockquote class="solution">
-      <h3 id="solution-solution-2"><i class="far fa-eye" aria-hidden="true"></i><span class="visually-hidden">solution</span> Solution</h3>
-
-      <p>The resulting dataset should look like this:</p>
-
-      <table>
-        <thead>
-          <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-            <th>6</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>CP020543.1</td>
-            <td>49</td>
-            <td>1452</td>
-            <td>chromosomal_replication_initiator_protein_<span class="notranslate">Dna</span>A</td>
-            <td>0</td>
-            <td>+</td>
-          </tr>
-          <tr>
-            <td>CP020543.1</td>
-            <td>1457</td>
-            <td>2557</td>
-            <td><span class="notranslate">DNA</span>_polymerase_III_subunit_beta</td>
-            <td>0</td>
-            <td>+</td>
-          </tr>
-          <tr>
-            <td>CP020543.1</td>
-            <td>2557</td>
-            <td>3630</td>
-            <td><span class="notranslate">DNA</span>_replication_and_repair_protein_RecF</td>
-            <td>0</td>
-            <td>+</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p>You can see that the genome ID is now appended at the beginning and this dataset looks like a legitimate <span class="notranslate">BED</span> that can be visualized.</p>
-    </blockquote>
-  </blockquote>
 
   <p>For the <span class="notranslate">BED</span> file with the symbol:</p>
 
@@ -2404,29 +2381,16 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
         <li><em>“Where to add dataset name”</em>: <code class="language-plaintext highlighter-rouge">Same line and each line in dataset</code></li>
       </ul>
     </li>
-    <li>Change the datatype of the collection to <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code> and rename it to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives) with Symbol Name</code></li>
+    <li>
+      <p>Change the datatype of the collection to <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code> and rename it to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives) with Symbol Name</code></p>
+
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-changing-the-datatype"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Changing the datatype</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>    <li>Select <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code></li>    <li>Click the <strong>Change datatype</strong> button</li>  </ul></blockquote>
+
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives) with Symbol Name</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
+    </li>
   </ol>
-
-  <blockquote class="tip">
-
-    <h3 id="tip-tip-changing-the-datatype-2"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Changing the datatype</h3>
-    <ul>
-      <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-      <li>In the central panel, click on the <i class="fas fa-database" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-chart-select-data</span> <strong>Datatypes</strong> tab on the top</li>
-      <li>Select <code class="language-plaintext highlighter-rouge"><span class="notranslate">bed</span></code></li>
-      <li>Click the <strong>Change datatype</strong> button</li>
-    </ul>
-  </blockquote>
-
-  <blockquote class="tip">
-
-    <h3 id="tip-tip-renaming-a-dataset-7"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-    <ul>
-      <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-      <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives) with Symbol Name</code></li>
-      <li>Click the <strong>Save</strong> button</li>
-    </ul>
-  </blockquote>
 
 </blockquote>
 
@@ -2637,18 +2601,10 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
     <li>
       <p>Rename this dataset <code class="language-plaintext highlighter-rouge">Gaps</code></p>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-renaming-a-dataset-8"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Renaming a dataset</h3>
-        <ul>
-          <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>
-          <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Gaps</code></li>
-          <li>Click the <strong>Save</strong> button</li>
-        </ul>
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-renaming-a-dataset"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Renaming a dataset</h3>  <ul>    <li>Click on the <i class="fas fa-pencil-alt" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-pencil</span> <strong>pencil icon</strong> for the dataset to edit its attributes</li>    <li>In the central panel, change the <strong>Name</strong> field  to <code class="language-plaintext highlighter-rouge">Gaps</code></li>    <li>Click the <strong>Save</strong> button</li>  </ul></blockquote>
     </li>
   </ol>
-
 </blockquote>
 
 <h2 id="visualising-the-genome">Visualising the Genome</h2>
@@ -2672,15 +2628,15 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
           <ul>
             <li><i class="far fa-plus-square" aria-hidden="true"></i><span class="visually-hidden">param-repeat</span> Insert Annotation Track
               <ul>
-                <li><em>“Track Type”</em>: <code class="language-plaintext highlighter-rouge">GFF/GFF3/<span class="notranslate">BED</span>/GBK Features</code></li>
-                <li><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“GFF/GFF3/<span class="notranslate">BED</span>/GBK Track Data”</em>: <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives)</code> from <strong>Collapse Collection</strong> <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span></li>
+                <li><em>“Track Type”</em>: <code class="language-plaintext highlighter-rouge">GFF/GFF3/<span class="notranslate">BED</span> Features</code></li>
+                <li><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“GFF/GFF3/<span class="notranslate">BED</span> Track Data”</em>: <code class="language-plaintext highlighter-rouge">Genes (E. coli Relatives)</code> from <strong>Collapse Collection</strong> <i class="fas fa-wrench" aria-hidden="true"></i><span class="visually-hidden">tool</span></li>
                 <li><em>“JBrowse Track Type”</em>: <code class="language-plaintext highlighter-rouge">Canvas Features</code></li>
               </ul>
             </li>
             <li><i class="far fa-plus-square" aria-hidden="true"></i><span class="visually-hidden">param-repeat</span> Insert Annotation Track
               <ul>
-                <li><em>“Track Type”</em>: <code class="language-plaintext highlighter-rouge">GFF/GFF3/<span class="notranslate">BED</span>/GBK Features</code></li>
-                <li><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“GFF/GFF3/<span class="notranslate">BED</span>/GBK Track Data”</em>: <code class="language-plaintext highlighter-rouge">Target &amp; Query Alignments</code></li>
+                <li><em>“Track Type”</em>: <code class="language-plaintext highlighter-rouge">GFF/GFF3/<span class="notranslate">BED</span> Features</code></li>
+                <li><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“GFF/GFF3/<span class="notranslate">BED</span> Track Data”</em>: <code class="language-plaintext highlighter-rouge">Target &amp; Query Alignments</code></li>
                 <li><em>“JBrowse Track Type”</em>: <code class="language-plaintext highlighter-rouge">Canvas Features</code></li>
                 <li><em>“JBrowse Feature Score Scaling &amp; Colouring Options”</em>
                   <ul>
@@ -2694,8 +2650,8 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
             </li>
             <li><i class="far fa-plus-square" aria-hidden="true"></i><span class="visually-hidden">param-repeat</span> Insert Annotation Track
               <ul>
-                <li><em>“Track Type”</em>: <code class="language-plaintext highlighter-rouge">GFF/GFF3/<span class="notranslate">BED</span>/GBK Features</code></li>
-                <li><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“GFF/GFF3/<span class="notranslate">BED</span>/GBK Track Data”</em>: <code class="language-plaintext highlighter-rouge">Gaps</code></li>
+                <li><em>“Track Type”</em>: <code class="language-plaintext highlighter-rouge">GFF/GFF3/<span class="notranslate">BED</span> Features</code></li>
+                <li><i class="far fa-file" aria-hidden="true"></i><span class="visually-hidden">param-file</span> <em>“GFF/GFF3/<span class="notranslate">BED</span> Track Data”</em>: <code class="language-plaintext highlighter-rouge">Gaps</code></li>
               </ul>
             </li>
           </ul>
@@ -2708,26 +2664,16 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
 
 <p>We have embedded a copy of the resulting JBrowse here, if something went wrong during one of the steps you can always just check this output:</p>
 
-<iframe id="embedded_jbrowse" src="/training-material/assets/jbrowse/index.html?tracklist=0&amp;data=/training-material/topics/assembly/tutorials/ecoli_comparison/data" border="0" width="100%" height="500px"></iframe>
+<!--SNIPPET-->
+<iframe id="embedded_jbrowse" src="/training-material/assets/jbrowse/index.html?data=/training-material/topics/assembly/tutorials/ecoli_comparison/data&amp;trackList=0" border="0" width="100%" height="500px"></iframe>
+<p><a href="/training-material/assets/jbrowse/index.html?data=/training-material/topics/assembly/tutorials/ecoli_comparison/data" target="_blank" style="padding: 0.5rem 1rem; background-color: #dfe5f9;border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">Open JBrowse in a new tab</a></p>
 
 <p>Let’s start by looking at the gaps in our alignments. The deletion from our assembly is easy to see. It looks like a gap in alignments because target genomes are longer than our assembly by the amount equal to the length of the deletion. Clicking on the following links to jump to the right locations in the genome browser above:</p>
 
 <ul>
-  <li>
-
-
-
-<a href="#embedded_jbrowse" onclick="document.getElementById('embedded_jbrowse').src='/training-material/assets/jbrowse/index.html?tracklist=0&amp;data=/training-material/topics/assembly/tutorials/ecoli_comparison/data&amp;loc=LT906474.1:3238836..3318993&amp;tracks=DNA%2C45ccd03761795e5db829b6ab104c6a5a_0%2C0b4cc6e1931ece5bd0f487148c40ba37_0%2C36c31c84288257f526dbf55dc63fac9e_0'">LT906474.1:3238836..3318993</a></li>
-  <li>
-
-
-
-<a href="#embedded_jbrowse" onclick="document.getElementById('embedded_jbrowse').src='/training-material/assets/jbrowse/index.html?tracklist=0&amp;data=/training-material/topics/assembly/tutorials/ecoli_comparison/data&amp;loc=CP020543.1:3246920..3310052&amp;tracks=DNA%2C45ccd03761795e5db829b6ab104c6a5a_0%2C0b4cc6e1931ece5bd0f487148c40ba37_0%2C36c31c84288257f526dbf55dc63fac9e_0'">CP020543.1:3246920..3310052</a></li>
-  <li>
-
-
-
-<a href="#embedded_jbrowse" onclick="document.getElementById('embedded_jbrowse').src='/training-material/assets/jbrowse/index.html?tracklist=0&amp;data=/training-material/topics/assembly/tutorials/ecoli_comparison/data&amp;loc=CP024090.1:3221116..3295268&amp;tracks=DNA%2C45ccd03761795e5db829b6ab104c6a5a_0%2C0b4cc6e1931ece5bd0f487148c40ba37_0%2C36c31c84288257f526dbf55dc63fac9e_0'">CP024090.1:3221116..3295268</a></li>
+  <li><!--SNIPPET--><p><a href="#embedded_jbrowse" onclick="document.getElementById('embedded_jbrowse').src='/training-material/assets/jbrowse/index.html?tracklist=0&amp;data=/training-material/topics/assembly/tutorials/ecoli_comparison/data&amp;loc=LT906474.1:3238836..3318993&amp;tracks=DNA%2C45ccd03761795e5db829b6ab104c6a5a_0%2C0b4cc6e1931ece5bd0f487148c40ba37_0%2C36c31c84288257f526dbf55dc63fac9e_0'">LT906474.1:3238836..3318993</a></p></li>
+  <li><!--SNIPPET--><p><a href="#embedded_jbrowse" onclick="document.getElementById('embedded_jbrowse').src='/training-material/assets/jbrowse/index.html?tracklist=0&amp;data=/training-material/topics/assembly/tutorials/ecoli_comparison/data&amp;loc=CP020543.1:3246920..3310052&amp;tracks=DNA%2C45ccd03761795e5db829b6ab104c6a5a_0%2C0b4cc6e1931ece5bd0f487148c40ba37_0%2C36c31c84288257f526dbf55dc63fac9e_0'">CP020543.1:3246920..3310052</a></p></li>
+  <li><!--SNIPPET--><p><a href="#embedded_jbrowse" onclick="document.getElementById('embedded_jbrowse').src='/training-material/assets/jbrowse/index.html?tracklist=0&amp;data=/training-material/topics/assembly/tutorials/ecoli_comparison/data&amp;loc=CP024090.1:3221116..3295268&amp;tracks=DNA%2C45ccd03761795e5db829b6ab104c6a5a_0%2C0b4cc6e1931ece5bd0f487148c40ba37_0%2C36c31c84288257f526dbf55dc63fac9e_0'">CP024090.1:3221116..3295268</a></p></li>
 </ul>
 
 <p>Close ups of deleted region (this region is deleted from our assembly and looks like a gap when our assembly is aligned to genomic sequences shown here). In CP0205543 and LT906474 the continuity of the region is interrupted by a small aligned region that has relatively low identity (~72%). This is a spurious alignment and can be ignored.</p>
@@ -2994,28 +2940,8 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
       <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://zenodo.org/record/3382053/files/inline-supplementary-material-7.tsv
 </code></pre></div>      </div>
 
-      <blockquote class="tip">
-
-        <h3 id="tip-tip-importing-data-via-links-1"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden">tip</span> Tip: Importing data via links</h3>
-
-        <ul>
-          <li>Copy the link location</li>
-          <li>
-            <p>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</p>
-          </li>
-          <li>Select <strong>Paste/Fetch Data</strong></li>
-          <li>
-            <p>Paste the link into the text field</p>
-          </li>
-          <li>
-            <p>Press <strong>Start</strong></p>
-          </li>
-          <li><strong>Close</strong> the window</li>
-        </ul>
-
-        <p>By default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</p>
-
-      </blockquote>
+      <!--SNIPPET-->
+      <blockquote class="tip">  <h3 data-toc-skip="" id="-tip-importing-via-links"><i class="far fa-lightbulb" aria-hidden="true"></i><span class="visually-hidden"></span> Tip: Importing via links</h3>  <ul>    <li>Copy the link location</li>    <li>Open the <span class="notranslate">Galaxy</span> Upload Manager (<i class="fas fa-upload" aria-hidden="true"></i><span class="visually-hidden"><span class="notranslate">galaxy</span>-upload</span> on the top-right of the tool panel)</li>    <li>Select <strong>Paste/Fetch Data</strong></li>    <li>Paste the link into the text field</li>    <li>Press <strong>Start</strong></li>    <li><strong>Close</strong> the windowBy default, <span class="notranslate">Galaxy</span> uses the URL as the name, so rename the files with a more useful name.</li>  </ul></blockquote>
     </li>
   </ol>
 
@@ -3630,6 +3556,11 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
                     </blockquote>
                     
 
+                    <h1>Frequently Asked Questions</h1>
+                    Have questions about this tutorial? Check out the  <a href="/training-material/topics/assembly/faqs/">FAQ page for the Assembly topic</a> to see if your question is listed there.
+                    If not, please ask your question on the <a href="https://gitter.im/Galaxy-Training-Network/Lobby">GTN Gitter Channel</a> or the
+                    <a href="https://help.galaxyproject.org">Galaxy Help Forum</a>
+
                     
 
                     
@@ -3683,7 +3614,7 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
                     <h1>Citing this Tutorial</h1>
                     <p>
                         <ol>
-                            <li id="citation-text">Anton Nekrutenko, Delphine Lariviere, Helena Rasche, 2020 <b>Making sense of a newly assembled genome (Galaxy Training Materials)</b>. <a href="/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html">/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html</a> Online; accessed TODAY
+                            <li id="citation-text">Anton Nekrutenko, Delphine Lariviere, Helena Rasche, 2021 <b>Making sense of a newly assembled genome (Galaxy Training Materials)</b>. <a href="/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html">/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html</a> Online; accessed TODAY
                             </li>
                             <li>
                             Batut et al., 2018 <b>Community-Driven Data Analysis Training for Biology</b> Cell Systems <a href="https://doi.org/10.1016%2Fj.cels.2018.05.012">10.1016/j.cels.2018.05.012</a>
@@ -3700,9 +3631,9 @@ Finally we can cut necessary columns from these datasets. These columns are 8 (s
 <code id="citation-code">@misc{assembly-ecoli_comparison,
     author = "Anton Nekrutenko and Delphine Lariviere and Helena Rasche",
     title = "Making sense of a newly assembled genome (Galaxy Training Materials)",
-    year = "2020",
-    month = "12",
-    day = "11"
+    year = "2021",
+    month = "03",
+    day = "23"
     url = "\url{/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html}",
     note = "[Online; accessed TODAY]"
 }
@@ -3753,7 +3684,7 @@ document.getElementById("citation-text").innerHTML = document.getElementById("ci
         </p>
         <p>
             Found a typo? Something is wrong in this tutorial? Edit it on
-            <a href="https://github.com/galaxyproject/training-material/tree/master/topics/assembly/tutorials/ecoli_comparison/tutorial.md">GitHub</a>.
+            <a href="https://github.com/galaxyproject/training-material/tree/main/topics/assembly/tutorials/ecoli_comparison/tutorial.md">GitHub</a>.
         </p>
         <p>
     The content of the tutorials and website is licensed under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
